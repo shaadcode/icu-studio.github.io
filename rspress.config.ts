@@ -11,6 +11,11 @@ export default defineConfig({
     light: '/icu-studio-light-logo.png',
     dark: '/icu-studio-dark-logo.png',
   },
+  builderConfig:{
+    output: {
+      assetPrefix: 'https://shaadcode.github.io/',
+    },
+  },
   globalStyles: path.join(__dirname, 'styles/custom.css'),
   themeConfig: {
     socialLinks: [

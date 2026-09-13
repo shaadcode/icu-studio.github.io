@@ -1,0 +1,21 @@
+:root {
+  --rp-c-brand: #fcb700;
+  --rp-c-brand-dark: #c26c1d;
+  --rp-c-brand-darker: #a35a18;
+  --rp-c-brand-light: #f2a65a;
+  --rp-c-brand-lighter: #f7c38b;
+
+}
+
+img.rspress-logo{
+    height: 4rem !important;
+}
+
+:where(html.rp-dark) {
+  --rp-home-background-bg: #242424;
+  --rp-c-bg: #242424;
+}
+:where(html:not(.rp-dark)) {
+  --rp-home-background-bg: #fff;
+  --rp-c-bg: #fff;
+}

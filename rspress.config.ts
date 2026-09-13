@@ -5,6 +5,7 @@ export default defineConfig({
   root: path.join(__dirname, 'docs'),
   lang: 'en',
   title: 'ICU Studio docs',
+  base:"/icu-studio-docs/",
   description: "Fast and lightweight IDE for ICU messages",
   icon: '/ICU-word-icon.png',
   logo: {
